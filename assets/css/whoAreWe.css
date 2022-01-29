@@ -1,0 +1,53 @@
+.whoAreWe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+.whoAreWe p {
+    font-size: 36px;
+    font-weight: 400;
+    margin: 0 15px
+}
+
+
+
+.whoAreWe span {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 49px 0 0 0;
+}
+
+.whoAreWe span img {
+    width: 100%;
+    margin: 0px 15px 0 5px;
+}
+
+.addContent img {
+    width: auto !important;
+}
+
+.whoAreWe a {
+    font-size: 36px;
+    font-weight: 400;
+    color: #486bc7;
+    text-decoration: none;
+}
+
+@media(max-width:1500px) {
+    .whoAreWe span {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+
+
+}

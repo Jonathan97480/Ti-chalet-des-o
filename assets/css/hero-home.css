@@ -1,0 +1,33 @@
+.hero-home {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.hero-home img {
+    width: 100%;
+}
+
+.hero-home h1 {
+    position: absolute;
+    top: 40%;
+    text-align: center;
+    font-family: ReenieBeanie;
+    font-size: 12rem;
+    font-weight: 500;
+    color: white;
+    left: 89px;
+}
+
+@media(max-width:1500px) {
+    .hero-home h1 {
+        font-size: 8rem;
+    }
+}
+
+@media(max-width:1000px) {
+
+
+    .hero-home {
+        margin-top: 0;
+    }
+}
