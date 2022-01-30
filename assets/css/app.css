@@ -21,7 +21,7 @@ section {
 }
 
 .small {
-    font-size: 25pt;
+    font-size: 25pt !important;
 }
 
 
@@ -121,6 +121,10 @@ footer>img {
 
 }
 
+.menu-active {
+    top: 70px;
+}
+
 @media (max-width:800px) {
     .hero-home h1 {
         font-size: 5rem;
@@ -129,6 +133,11 @@ footer>img {
     footer span {
         height: auto;
     }
+
+    .title {
+        font-size: 100px;
+    }
+
 }
 
 @media (max-width:520px) {

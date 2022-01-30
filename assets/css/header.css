@@ -82,16 +82,26 @@ header nav a {
 
     }
 
+    main {
+        margin-top: 100px;
+    }
+
     .mobil-header {
         display: inline-block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 60;
+        background-color: white;
 
     }
 
     .mobil-header .menu-icon {
         display: inline-block;
-        position: absolute;
-        right: -100px;
-        top: 0;
+        right: -80px;
+        top: -40px;
+        z-index: 100;
     }
 
     .menu-icon img {
@@ -104,14 +114,12 @@ header nav a {
         flex-direction: column;
         justify-content: center;
         height: 25vh;
-        width: 50vw;
-        background-color: red;
+        width: 100vw;
+        background-color: white;
         position: fixed;
-        top: 40px;
-        right: -50vw;
-        z-index: 30;
+        top: -150px;
+        z-index: 50;
         transition-duration: 1s;
-        border-radius: 15px 0 0 15px;
     }
 
     .menu-item nav {
@@ -126,8 +134,10 @@ header nav a {
         color: black;
         margin: 5px 0;
         padding: 10px 5px;
-        background-color: blue;
+        background-color: #00245f;
         width: 100%;
+        color: white;
+        font-weight: bold;
     }
 
     .hero-home {
