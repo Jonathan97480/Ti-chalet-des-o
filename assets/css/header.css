@@ -3,6 +3,10 @@
     display: none;
 }
 
+.menu-item {
+    display: none;
+}
+
 header {
     display: inline-block;
     max-width: 100vw;
@@ -116,6 +120,7 @@ header nav a {
         height: 25vh;
         width: 100vw;
         background-color: white;
+
         position: fixed;
         top: -150px;
         z-index: 50;

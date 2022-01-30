@@ -4,10 +4,13 @@
 @import url(whoAreWe.css);
 @import url(card.css);
 @import url(galery.css);
+@import url(reservationForm.css);
+@import url(presentation.css);
 
 body, html {
     width: 100vw;
 }
+
 
 section {
     padding: 0 129px;

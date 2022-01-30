@@ -7,3 +7,16 @@ humberger.addEventListener('click', () => {
 
 })
 
+/**
+ * 
+ * @param {HTMLLinkElement} element 
+ */
+function viewPic(element) {
+
+
+    let view=document.getElementById('view-id');
+
+    console.log(element)
+    view.setAttribute('style', `background-image: url("${element.getAttribute('data-url')}");`)
+
+}

@@ -1,0 +1,39 @@
+.form-reservation {
+
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    width: 40%;
+}
+
+.form-reservation label {
+    font-weight: bold;
+    color: white;
+    font-size: 18pt;
+    text-shadow: 1px 1px 1px black;
+}
+
+.form-reservation form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.form-reservation input {
+    height: 56px;
+    width: 200px;
+    border-radius: 15px;
+}
+
+.form-reservation .btn {
+    background-color: #486bc7;
+    color: white;
+    font-weight: bold;
+    font-size: 18pt;
+}
+
+.hero-pic {
+    width: 100%;
+}
