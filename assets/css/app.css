@@ -11,6 +11,10 @@ body, html {
     width: 100vw;
 }
 
+main {
+    max-width: 1920px;
+    margin: auto;
+}
 
 section {
     padding: 0 129px;
