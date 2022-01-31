@@ -31,6 +31,10 @@ section {
     font-size: 25pt !important;
 }
 
+.active {
+    text-decoration: underline;
+    font-weight: bold;
+}
 
 .Newsletters {
     display: flex;
