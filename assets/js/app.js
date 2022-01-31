@@ -1,3 +1,13 @@
+/*
+@file : app.js
+@author : Gauvin Jonathan 
+@email : jonathanfrt97480@gmail.com 
+*/
+console.log(`@file : app.js\n
+@author : Gauvin Jonathan\n 
+@email : jonathanfrt97480@gmail.com`)
+
+
 const humberger=document.getElementById("humber");
 const menuMobile=document.getElementById('mobile-menu')
 
