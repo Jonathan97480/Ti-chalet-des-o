@@ -156,6 +156,14 @@
     margin: 0 15px;
 }
 
+
+
+.servicesBlock {
+
+    height: 850px;
+}
+
+
 @media(max-width:1000px) {
 
     .body-pre {
